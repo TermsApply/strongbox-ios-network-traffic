@@ -1,0 +1,83 @@
+Our Privacy Policy
+
+Last Update: 15 October 2026 – Updated information on purchases, service providers, analytics, crash reporting and optional integrations.
+
+Previous Update: 9 May 2024 – Added information on GDPR Compliance, improved formatting/readability.
+
+Who we are
+
+This policy explains how personal information is processed when you use Strongbox, our website at https://strongboxsafe.com, or contact our support team.
+
+Strongbox is provided by Phoebe Code Limited, based in the UK. Contact us through the Strongbox support page with privacy questions or requests.
+
+Your password databases
+
+Strongbox encrypts your password databases on your device and decrypts them locally when you unlock them. We cannot reset your database master password or decrypt your database without its required credentials.
+
+You can store databases locally or use a supported cloud service, WebDAV or SFTP. Storage integrations authenticate with your selected provider and transmit your encrypted database to it. Strongbox Sync uses Apple’s CloudKit infrastructure.
+
+AutoFill passes the credentials you choose to the relevant website or app. You can also choose to copy, share or export database contents.
+
+If you enable optional integrations such as MCP access for an AI application, that application can receive the information you authorise Strongbox to disclose. Information returned to an AI application may be processed by its model provider, depending on the application’s configuration and privacy policy. Strongbox’s local connection does not control what the receiving application does with that information.
+
+Database encryption is separate from the purchase, analytics, diagnostic and support processing described below. Using local storage does not by itself disable those services.
+
+Purchases and subscription management
+
+We use Apple and RevenueCat to manage purchases and subscriptions, check access to paid features, restore purchases and determine offer eligibility. RevenueCat also provides purchase and subscription reporting.
+
+Strongbox does not require a Strongbox account, and we do not supply RevenueCat or Superwall with a custom Strongbox account identifier. These services use SDK-generated identifiers and may process device identifiers to associate purchase status and related events with an installation or device. The absence of a Strongbox account does not make this information anonymous.
+
+The iOS freemium app also uses RevenueCat for Apple Ads attribution, associating installations and purchases with advertising campaigns.
+
+See RevenueCat’s privacy policy.
+
+If you activate Strongbox through Setapp, Setapp also processes activation and subscription information under its privacy policy.
+
+Upgrade screens and related analytics
+
+The iOS freemium app uses Superwall to provide upgrade screens, manage offers and measure their performance. This integration can run even when you already have an active Pro subscription.
+
+Superwall processes technical information, app-usage events and purchase status for these purposes. It may derive approximate location from your IP address and estimate the likelihood of a purchase. This is not GPS location tracking.
+
+Upgrade screens may load resources from Superwall and third-party hosts. The crash-reporting switch does not disable Superwall or RevenueCat.
+
+See Superwall’s privacy policy.
+
+Crash reporting
+
+The iOS app uses Sentry to diagnose crashes using technical reports. Crash reporting is enabled by default on a fresh installation and can be turned off in settings. When disabled, Strongbox does not start Sentry, or closes it if it is already running.
+
+Crash reporting is intended to diagnose software failures, not collect password-database contents.
+
+See Sentry’s privacy policy.
+
+Favicon downloading
+
+If you enable favicon downloading, Strongbox uses an entry’s website address to find an icon. Depending on your settings, it contacts the website itself, DuckDuckGo or Google’s favicon service. Those services receive the requested website address or domain and connection information.
+
+Website and support
+
+Our website uses Plausible for visit statistics and page performance. Plausible does not use cookies, and we do not use these website statistics for advertising or marketing.
+
+When you contact support, we use the information you provide to investigate and respond. We use Freshdesk to manage requests and email services to handle correspondence. These services store the messages and attachments you send us.
+
+Retention and deletion
+
+You control databases and backups stored locally or with your chosen storage provider. Uninstalling Strongbox does not necessarily delete those files or purchase, analytics, diagnostic and support records held by service providers. Contact us to request deletion of information processed under our responsibility.
+
+Your rights
+
+Depending on applicable law, you may have rights to access, correct, erase or receive a copy of personal information, restrict or object to processing, and withdraw consent where processing relies on it. Some information may need to be retained to meet legal obligations.
+
+Contact us through the Strongbox support page to exercise your rights. We may need to verify your request and locate the relevant records. You can also complain to the UK Information Commissioner’s Office or your local data-protection authority.
+
+Strongbox Zero
+
+We also offer Strongbox Zero, a separate, custom-built, stripped-down edition for privacy-conscious users. Find Strongbox Zero on the App Store.
+
+Different editions and changes
+
+The services used differ between iOS, macOS and Strongbox Zero, and between freemium and outright Pro editions.
+
+We will update this policy when our processing changes and communicate significant changes through an appropriate user-facing channel.

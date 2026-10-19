@@ -1,0 +1,15 @@
+# Private working files that must never be published
+*_LOCAL*
+.strongbox-salt*
+.pseudonymisation_salt*
+time_shifts*.json
+
+# Original captures; only the prepared HAR files are published
+*.har
+!*.pub.har
+*.pcap
+*.pcapng
+
+# System and Python files
+.DS_Store
+__pycache__/

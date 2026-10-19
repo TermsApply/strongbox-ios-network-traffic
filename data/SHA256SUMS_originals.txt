@@ -1,0 +1,26 @@
+# SHA-256 of the unpublished original captures.
+# HAR: Proxyman exports; PCAPNG: Wireshark recordings (rvi0). The originals are not published.
+# Original file names are replaced by run codes (the names contain export times).
+# The published data/<code>.pub.har files are derived from these originals (see tools/).
+# S01-install (packet capture of the installation phase before S01) and T1 added on 18 October 2026.
+
+1fcf138fd9e82ff40c0923ae73f567dca8fe876f38d370381b3ae0a95ccfa6a0  A0.har
+5d2d245e20e17531d349a9b5888e8661eed0f7700b939f831149408f541fbf3f  A0.pcapng
+f7046e7075fc76fa9d077ca679abcef8b1f00d0c57d2fd366f16515f1602eb70  S02.har
+198c7bd3507a53f80bf36b67e70ee97f30bfeb84ee38b0f927925b4ffde45ec9  S02.pcapng
+2c60185343e782ebc3f96783d142b5d1e11586eda356adc142d2062d0bb897aa  S01.har
+a8cc1d45e8d13f4038856389d974129cc405952efa7074e75557e40e528c2a74  S01-install.pcapng
+d82bdec0f1add7a90cfeb8170a29922ae49c310ac681570778537bb18a7b3d6d  S01.pcapng
+b12bc4f7a98df027e46df7008059acfa0a3807ef16959d7aebb4030385b76a13  S11b.har
+32afd83fd9a6680c333e3c7494c7f4db62cc5460db4afd1c2265372b2aefbb8c  S11b.pcapng
+c385946e403bf487fb6283c9bfcdc6e75c2a18902f6ed6ee30f7b7c096ca1f32  S17.har
+40695f17758d265f24dc6b54e57abbd151393447aad43b729016868e0cf845fd  S17.pcapng
+dcf5910c118e66974a34ecd893bda416c3dd75cc03080c3ee410941cd10d8998  S18.har
+5faba4bfb1f99f93affeea79dd697123d2de7e72df312820b4f3022ed6d4237f  S18.pcapng
+09bc7fb858e13abd0b3dbacd320a6871cfc7cc5a9a602feb9bf9368e5a7de23d  T1.pcapng
+ef276bc12356f00379a76d62fb710973cde0db1e36635d1720f34290ff562f12  T2.pcapng
+b28c372dd6268c27a8d337f423b0c01528611906fc76f932d6b37c5a86413f93  T3.har
+ef7e7d73cfcdd405f6bd87bea36979add05bb0e3f95c83dc3f3b69b2fdfed736  T3.pcapng
+4505e7715c8889ab0e7113298c57e6523d2bdd0c474d6643cbd85f3378d467b5  A5.har
+b4d8cb35664efac7e3a28f045379b0b52d152502a2ec6b5121fff54a11e6487f  A8.har
+7db0e5186f5f9e77923a10377c754bb9f11500dff3a608edc24e9c5dd9c8dd0e  C8.har

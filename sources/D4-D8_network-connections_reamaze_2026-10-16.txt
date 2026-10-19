@@ -1,0 +1,37 @@
+What Network Connections Can Strongbox Make?
+Strongbox can make network connections for database synchronisation, purchases, upgrade screens, crash reporting and optional features.
+The connections depend on your platform, edition, settings and the features you use. Storing your database locally does not, by itself, disable purchase, upgrade-screen or diagnostic services.
+Database storage and synchronisation
+If you choose a remote storage location, Strongbox connects to that service to authenticate and read or write your encrypted database.
+Supported options include Strongbox Sync, iCloud, Dropbox, Google Drive, OneDrive, WebDAV and SFTP. When you access a database through Apple's Files app or a folder managed by another application, that application may handle the network connection instead.
+Strongbox Sync uses Apple's CloudKit infrastructure. Wi-Fi Sync communicates between your devices over your local network.
+Your database is transferred in its encrypted file format. Your master password is not sent to your storage provider to decrypt it.
+Purchases and subscriptions
+Strongbox communicates with Apple's App Store to retrieve products and prices, process purchases, restore purchases and check purchase status.
+Applicable editions also use RevenueCat to manage purchase and subscription status. RevenueCat processes purchase-related information and technical identifiers. Strongbox does not require a Strongbox account or supply RevenueCat with a custom Strongbox account identifier.
+The iOS freemium edition also enables Apple Ads attribution through RevenueCat.
+Setapp editions communicate with Setapp for activation and subscription management.
+Upgrade screens
+The iOS freemium edition uses Superwall to display upgrade screens and offers, and to understand how those screens perform.
+Superwall can process technical information, SDK-generated and device identifiers, purchase status and app-usage events. It may also use IP-derived approximate location and purchasing-likelihood classifications. Upgrade screens may load additional resources from third-party hosting and content services.
+These connections can occur when the app starts, including for users with an active Pro subscription. Turning off crash reporting does not disable Superwall or RevenueCat.
+Crash reporting
+The iOS app uses Sentry to help us diagnose crashes and reliability problems.
+Crash reporting is enabled by default on fresh installations. You can disable it in Strongbox's settings. When disabled, Strongbox skips initialising or closes the crash-reporting SDK.
+Crash reporting is intended for technical diagnostics, not collecting the contents of your password database.
+Internet connectivity detection
+Where available and enabled, Strongbox uses a reachability check involving duckduckgo.com to help determine whether the device is offline. This may involve DNS resolution and system networking activity.
+The check does not submit database contents or entry URLs. You can disable connectivity monitoring in Advanced Settings.
+Favicon downloading
+If you enable automatic favicon fetching or request an icon download, Strongbox may contact the website associated with an entry and configured favicon services, including DuckDuckGo and Google.
+These requests disclose the domain being looked up, along with normal connection information such as your IP address. The favicon sources can be configured in Strongbox.
+Have I Been Pwned? password checks
+If you enable the optional compromised-password check, Strongbox contacts api.pwnedpasswords.com.
+It sends the first five characters of a password's SHA-1 hash, not the password or its complete hash. Strongbox compares the returned results locally.
+Strongbox Zero
+Strongbox Zero is a separate, stripped-down edition with networking features removed or compiled out. It does not have the same integrations as the regular app.
+If you use operating-system features or another application to move or synchronise files used by Zero, those services operate under their own settings and privacy policies.
+Checking network activity
+You can inspect network activity using tools such as Charles, Wireshark or a device firewall.
+Exact hostnames can change as Apple, storage providers and other services update their infrastructure. This article describes the purposes of connections rather than a permanent firewall allowlist.
+For more information about personal information and service providers, see our Privacy Policy.

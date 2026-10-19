@@ -1,0 +1,53 @@
+PUBLICATION CHECK REPORT: A0.anon.har
+Script: prepare_har_for_publication.py 1.6.0
+Input SHA-256: 8b6ea4f63cf761544ad055dd02364d1f210687f6caf5a62da573400e2d352ba2
+Pseudonymiser version of the input: 2.0.2
+Input from an older pseudonymiser version translated (--legacy-input): 0 labels renamed (hash and length unchanged), log.comment rewritten
+Output file: A0.pub.har
+Output SHA-256: 3eacd482b806b1af172e97a4d15653b355d58eba0b56f9d1f97e5af408fd09de
+Entries: 9 in input, 8 in output
+
+ENTRIES PER HOST (kept)
+     1  api.revenuecat.com
+     1  api.superwall.me
+     1  collector.superwall.me
+     1  enrichment-api.superwall.com
+     1  fonts.googleapis.com
+     1  fonts.gstatic.com
+     1  subscriptions-api.superwall.com
+     1  user-content.superwalleditor.com
+
+REMOVED
+  entries of hosts out of scope: 1 (1 hosts)
+  entries of studied hosts sent by another app (bundle): 0 (0 different bundles)
+  response body of static resources (size, mimeType, status kept):
+         1 entries, 0 characters  fonts.googleapis.com
+         1 entries, 0 characters  fonts.gstatic.com
+         1 entries, 0 characters  user-content.superwalleditor.com
+  fields:
+      _clientAddress: 8
+      _clientPort: 8
+      _remoteDeviceIP: 8
+      _serverAddress (labelled): 6
+      serverIPAddress (labelled): 6
+
+FIELDS MASKED (groups: purchase_dates, price, currency_storefront, original_version, os_build, superwall_profile, local_time; placeholder: <<MASKED_TYPE>>)
+  no raw values to mask
+
+LEFT IN CLEAR
+  timestamps SHIFTED by a constant, random value per file (--shift-time); value only in the local file; intervals unchanged, entries sorted by time
+  server address: replaced with labels <<IP_n>> (--server label; 6 entries; map shared by all published files, in the local file, holding 42 addresses after this file); CDN point of presence (X-Amz-Cf-Pop, cdn-pop in Server-Timing): always masked
+  sw_cache_key (paywall resource URLs): always masked, in every place (none in clear in the input)
+  field groups not masked in this step: model, server
+  (in files from pseudonymise_har.py 2.x they are usually already masked in the input)
+
+EPOCHS AS DIGIT STRINGS IN headers/queryString/cookies (10 or 13 digits, years 2020-2035)
+  none
+BARE DATES AND TIMES OF DAY (key: count)
+  none
+EPOCHS IN BODIES OUTSIDE THE SHIFT RULES (NOT CHANGED - to check)
+  numbers under keys outside EPOCH_KEYS: none
+  10/13-digit strings: none
+
+RAW PATTERN CHECK (type | path | count)
+  no hits

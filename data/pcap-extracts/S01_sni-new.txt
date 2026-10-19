@@ -1,0 +1,10 @@
+# TLS server names absent from the background capture, limited to the hosts named in the report and proxyman.com (marker of Proxyman for iOS); 11 other names removed (other apps and services on the device)
+api.revenuecat.com
+api.superwall.me
+collector.superwall.me
+enrichment-api.superwall.com
+fonts.googleapis.com
+fonts.gstatic.com
+js.stripe.com
+subscriptions-api.superwall.com
+user-content.superwalleditor.com

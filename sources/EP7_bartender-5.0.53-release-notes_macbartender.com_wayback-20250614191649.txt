@@ -1,0 +1,5 @@
+Updates
+
+Bartender is now part of the Applause family! We’re a small team of indie devs based in NYC that has been using Bartender for years. We’re excited to continue delivering updates and improvements to make Bartender better than ever.
+
+We are enhancing privacy in this update by removing Amplitude product analytics, which was added in version 5.0.52. This was originally included to count the number of users encountering issues with permissions outlined here: https://www.macbartender.com/Bartender5/PermissionIssues/.

@@ -1,0 +1,63 @@
+Our Privacy Policy
+
+Last Update: 9 May 2024 – Added information on GDPR Compliance, improved formatting/readability.
+
+Previous Update: 29 September 2021 – Added reference to “Strongbox Zero”
+
+This privacy policy governs your use of the software application Strongbox (“Application”), the Strongbox website (“Website”) located at https://strongboxsafe.com and your interaction with the UK based company Phoebe Code Limited (“Company”). We endeavour to have this privacy policy be the central location for all privacy related issues and be the single source of truth.
+
+Summary
+
+The Application is a client side application for iOS and MacOS. It cannot physically store any of your information outside of your device and as soon as you delete the Application all information is also erased from your device. You may use the Application to store your encrypted databases outside of your device using built in integrations provided by the Application or otherwise via built in OS support. The Company does not collect any of your data and operates a zero knowledge policy when it comes to your data. This also means we cannot reset your password nor tell you what it is for recovery purposes. This is by design.
+
+What information does the Application obtain and how is it used?
+
+The Application does not store any information and only collects the absolute bare minimum required for functionality. None of this information is used by the Application, Website or Company for advertising or other marketing purposes. You may enter information into your password databases, this is encrypted on device and is never sent in plaintext anywhere. If you choose to use one of the cloud storage/server integrations, this encrypted database will be transmitted to your chosen and configured cloud storage provider.
+
+How do you handle location data?
+
+The Application does not use or collect any data related to your geographic location.
+
+Can users see their personal data?
+
+The Application itself does not collect any user data. To see their data users can unlock their password databases using their master credentials – known only to them.
+
+Do you share personal information?
+
+No, we do not have your personal information to share with anyone. If you choose to use the FavIcon Downloader Strongbox uses the URL of your entry to try to find the best FavIcon for it, using various services. These include directly downloading of well known favicon files (e.g. favicon.ico), the DuckDuckGo favicon service, and Google’s favicon service. This FavIcon downloader is an opt in feature and using the various services to find the best favicon is configurable.
+
+What possible Network Connections can the Application make?
+
+Network connections are covered in the Support article here. The obvious cases are to connect to your remote storage provider to sync (read & write) your database. This could be any of the native integrations with iCloud, Google Drive, Dropbox, OneDrive but also via the iOS Files app with any third party integration you might use to connect to your favourite cloud (e.g. Sync, Nextcloud, Box, etc). The Application also provides support for WebDAV/SFTP so that you can connect to your own private server or use a cloud hosted one (e.g. Nextcloud, Owncloud). Data will be transmitted to authenticate and to read/write your database from your selected cloud service. All of this is opt in and you can always use local databases instead if you prefer.
+
+Do you offer any alternative, more privacy conscious products?
+
+We now offer Strongbox Zero, a custom built stripped-down application for the super privacy conscious individual. You can find it here on the App Store.
+
+Do advertising companies collect data?
+
+The Application does not collect or maintain user data for any purposes (advertising or otherwise).
+
+Do you use vendors or analytics providers?
+
+The Application does not use vendors or analytics providers. The Website uses Plausible (an ethical and privacy conscious analytics provider) to track standard visit statistics and page performance. Plausible does not use any cookies. We do not use this data for advertising or marketing purposes.
+
+What about my Cloud Storage Providers? Do they have my data?
+
+Unencrypted data like your passwords etc never leave your device. Only encrypted password databases are transmitted to your storage provider of choice and so they cannot have access to your passwords or other sensitive data. The Application, Website and Company do not store any of your information. See the following help article for more information.
+
+How do you store or manage support and or other correspondence emails?
+
+Any data that you send in your correspondence with support or other emails regarding the Application, Website or Company. Support email hosting is provided by Google Workspace, business email by Microsoft Office 365. These mailboxes are regularly purged/expunged. We also use the third party service Re:Amaze to manage Helpdesk issues submitted via the Website and/or via support email.
+
+Do you comply with the EU’s GDPR?
+
+Yes, Strongbox is an offline-first, open-source application and user data is stored locally or on cloud drives or servers belonging to the user, and not shared with any third parties or Phoebe Code Limited. This means it inherently supports GDPR compliance. We don’t run any servers, have access to any of your data, nor do we store any of your data. We’re also very keen to keep it that way.
+
+Do you comply with the Children’s Online Privacy Protection Act (COPPA)?
+
+Yes. We do not solicit nor gather any data from children under the age of 13. If a parent or guardian becomes aware that his or her child has provided us with information without their consent, he or she should contact us.
+
+How to contact us
+
+If you have any questions about The Application, Website or Company’s privacy policy, the data we hold on you, or you would like to exercise one of your data protection rights, please do not hesitate to contact us.

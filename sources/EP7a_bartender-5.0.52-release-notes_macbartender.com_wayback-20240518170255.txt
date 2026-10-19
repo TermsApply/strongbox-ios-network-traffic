@@ -1,0 +1,35 @@
+New Features
+
+Image comparison improvements
+
+Due to changes in the menu bar icon image data supplied by macOS, I had to revisit the image comparison algorithm, I have taken this opportunity improve the algorithms ability to spot useful differences, and ignore non important changes. Basically its better at ignoring light/dark mode, resolution or menu bar size differences, and better at spotting intentional color changes (such as part of an icon turning red), or shape changes.
+
+Re-added the ability to only use the Bartender Bar on screens with a notch
+
+Now you can once again set Bartender to only use the Bartender Bar on screens with a notch.
+
+Bug Fixes
+
+CPU usage creeping up over days
+
+With a menu bar style applied it was possible for the CPU usage to start increasing over days, this has been fixed.
+
+Small improvement to menu bar style when switching spaces
+
+It could take a second for the menu bar style to be applied when changing spaces, this has been fixed.
+
+Small improvements to image comparisons
+
+Making small incremental improvements to image comparisons.
+
+Fix for highlight showing when Bartenders menu bar item set to be hidden
+
+This has been fixed.
+
+Bartender Advanced settings window resizing causing window to move offscreen
+
+I still have not tracked down what in AppKit is causing this, but I have disabled resizing in Advanced settings to prevent this, until I can find the issue.
+
+Bugs in the new image comparison trigger condition
+
+There were a number of small bugs reported for the new image comparison trigger conditions. These have been fixed.

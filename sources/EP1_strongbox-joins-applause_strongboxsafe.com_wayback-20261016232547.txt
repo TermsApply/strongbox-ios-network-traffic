@@ -1,0 +1,91 @@
+Strongbox Joins Applause
+
+- Posted on March 13, 2025
+
+- In Product Updates
+
+Dear Strongbox Community,
+
+Today, we are thrilled to announce a significant milestone in the journey of Strongbox, the password management application trusted by tens of thousands of users across iOS and macOS. After years of working on Strongbox independently, Mark McGuill has made the decision to entrust the future of this exceptional product to our team at Applause.
+
+A letter from Strongbox’s Founder about this development can be found here.
+
+Applause is a team of indie developers who’ve been building iOS and macOS apps since 2010. While we may operate under the radar, you might know us through Nomorobo, our spam call blocking app, or Voice Dream Reader, our text to speech app. We’re based in New York City and are dedicated to being a great home for indie developed apps.
+
+Strongbox has long been one of the best password managers available, built with security-first principles, open-source transparency, and user control at its core. We’ve admired it for years, and now, as its new stewards, our mission is simple: keep Strongbox great and make it even better.
+
+What We Love About Strongbox
+
+We took this step because Strongbox is already exceptional. Some of the things we love:
+
+- Seamless iOS/macOS integration (Face ID, Touch ID, Safari AutoFill)
+
+- Best-in-class security (AES-256, strong key derivation, TOTP, YubiKey support)
+
+- No vendor lock-in (KeePass format, open-source foundation)
+
+- Flexible sync and offline options (including Strongbox Zero)
+
+- Customizable password management tools
+
+- Minimalist, intuitive design
+
+Our goal isn’t to change what makes Strongbox special—it’s to build on it.
+
+What’s Not Changing
+
+We want to reiterate several things that will not change in this transition because we know that’s the most important thing for you:
+
+- Your data stays yours. Your passwords remain where you stored them, protected by your encryption keys. No migration or conversion is needed.
+
+- KeePass compatibility stays. We know this is essential, especially for our German users.
+
+- Local storage and self-hosted sync options stay. WebDAV, SFTP, iCloud, and offline use will remain fully supported.
+
+- Mark will continue to support us in an advisory capacity, ensuring a seamless transition across the board.
+
+What’s Next: Our Roadmap
+
+With our expanded team and resources, here’s what we’re focusing on:
+
+Near-Term (First 6 Months)
+
+- Performance & reliability improvements
+
+- Full support for the latest OS updates and Apple Silicon
+
+- Fixing sync and AutoFill bugs
+
+- Better documentation & expanded language support (especially German)
+
+Longer-Term (6-18 Months)
+
+- Improved biometric & hardware security key support
+
+- Better offline sync & conflict resolution
+
+- Advanced password health insights (processed locally on your device)
+
+- Improved field management & templates
+
+We also want to hear from you. We plan to implement a dedicated feedback portal where users will be able to submit new feature ideas and be able to vote on these ideas to help us learn what the community wants us to build.
+
+What You Can Expect Next
+
+- No disruptions: Strongbox will continue working exactly as it does today.
+
+- Meet the Team: We’ll introduce key team members in the next two weeks.
+
+- Community Engagement: New feedback channels launching soon.
+
+- First Update Incoming: A bug-fix & optimization release shortly
+
+We know transitions can raise concerns, but our goal is continuity, not disruption. To that end Mark will continue to support us in an advisory capacity, ensuring a seamless transition across the board.
+
+A Collaborative Future
+
+We’re honored to take on Strongbox’s next chapter and deeply respect the trust you place in it. User experience, customer satisfaction and privacy are at the core of everything we do, and we’ll work to earn your confidence through our actions.
+
+Thank you for being part of the Strongbox community—we can’t wait to build the future of this wonderful product together.
+
+The Applause Team

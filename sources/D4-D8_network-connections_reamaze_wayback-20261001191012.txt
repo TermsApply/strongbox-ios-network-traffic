@@ -1,0 +1,26 @@
+What Network Connections Can Strongbox Make?
+The following are the possible network connections that Strongbox can make which may be seen if you monitor network traffic while using the features described below.
+1. Apple App Store (Mandatory)
+   1. Strongbox makes requests to Apple for two reasons.
+      - In App Purchase pricing and purchase/restore transactions
+         - This call is made to Apple’s App Store via the standard StoreKit API to determine:
+            - What upgrade options are available and their pricing.
+            - What Tips (users can leave tips to support us at their discretion) are available and their pricing
+      - App Store Receipt download and refresh. Strongbox verifies the App is legitimately purchased from the App Store. To do this Strongbox checks the receipt. This is something every App from the App Store has. This needs to be refreshed at times to verify legitimate purchases/subscription status. This is to make sure the App is not side-loaded, jail-broken or otherwise hacked and is entitled to be run on the device in question. Source code for that can be found here.
+2. Offline Connectivity Detection - (On by default, opt out in preferences)
+   - Strongbox tries to determine if you go offline so that it can offer you the option of using its local version instead
+   - This offline detection works by trying to see if it can connect to https://duckduckgo.com. No information is sent, just a connection test.
+   - Source code for that is found here.
+   - This can be turned off in Advanced Preferences.
+3. FavIcon Download - (Opt In)
+   - If you have the ‘Auto Fetch FavIcon’ preference (Database Preferences > View Preferences > Details View) or if you choose ‘Download FavIcon’ from the Change Icon screen, Strongbox will attempt to determine the best FavIcon(s) for you (based on the entry URL) and set the icon on your entry accordingly.
+4. ‘Have I Been Pwned?’ Security Audit - (Opt-In)
+   - If you choose to enable the ‘Have I Been Pwned?’ security audit Strongbox will at appropriate times try to determine if your passwords are compromised or insecure. You can read much more about this audit here. This endpoint for this service is https://api.pwnedpasswords.com
+NB: This is of course apart from the built-in cloud storage options (Strongbox Sync, iCloud, Dropbox, Google Drive, OneDrive, WebDAV, SFTP, Wi-Fi Sync) whose entire purpose is to go out on the network to read and write your database.
+NB: Before using Google Drive, Dropbox or OneDrive Strongbox presents a warning about using third party storage providers whose privacy policies may be less than ideal.
+NB: None of these connections send any of your databases or personal identifying information.
+How can I verify this?
+For your own verification purposes you can use Wireshark, Charles or Surge to monitor all network traffic and the steps to do so are described here:
+https://stackoverflow.com/questions/3924633/how-can-i-debug-network-requests-from-my-iphone
+Strongbox Zero
+We also offer an alternative version of the app with much of the networking code stripped out. Check out Strongbox Zero.

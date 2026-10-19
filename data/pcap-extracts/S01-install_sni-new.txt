@@ -1,0 +1,1 @@
+# TLS server names absent from the background capture, limited to the hosts named in the report and proxyman.com (marker of Proxyman for iOS); 20 other names removed (other apps and services on the device)

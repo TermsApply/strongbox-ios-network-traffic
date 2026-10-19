@@ -1,0 +1,23 @@
+<item>
+			<title>Version 5.0.52</title>
+			<sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
+			<sparkle:version>50052</sparkle:version>
+			<sparkle:shortVersionString>5.0.52</sparkle:shortVersionString>
+			<sparkle:releaseNotesLink>https://macbartender.com/B2/updates/5-0-52/rnotes.html</sparkle:releaseNotesLink>
+			<pubDate>May 14, 2024 09:45:00 +0000</pubDate>
+			<enclosure url="https://macbartender.com/B2/updates/5-0-52/Bartender%205.zip"
+				type="application/octet-stream" sparkle:dsaSignature="" length="11619033" />
+		</item>
+
+<item>
+			<title>Version 5.0.53</title>
+			<sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
+			<sparkle:version>50053</sparkle:version>
+			<sparkle:shortVersionString>5.0.53</sparkle:shortVersionString>
+			<sparkle:releaseNotesLink>https://macbartender.com/B2/updates/5-0-53/rnotes.html</sparkle:releaseNotesLink>
+			<pubDate>June 06, 2024 09:45:00 +0000</pubDate>
+			<enclosure url="https://macbartender.com/B2/updates/5-0-53/Bartender%205.zip"
+				type="application/octet-stream"
+				sparkle:dsaSignature="MCwCFCQQnXBxzCo9Bp7SIcxT0tx6kuv5AhQeyekFw1ZY64ERUoHL24lrJqxALw=="
+				length="11122323" />
+		</item>

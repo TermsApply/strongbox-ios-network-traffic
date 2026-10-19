@@ -1,0 +1,33 @@
+June 10, 2024
+
+Let's Try This Again
+
+We understand that there has been some concern and uncertainty regarding our acquisition of Bartender.
+
+First and foremost, we want to apologize to the community for not making an announcement earlier. We completed our transition period with Ben at the end of May and should have made an announcement prior to our first release a couple of weeks ago.
+
+After working on Bartender for 10 years, Ben trusted us to build on its success and bring fresh energy and ideas to the product. As we continue to get the hang of things, we're going to make some mistakes. Your feedback is invaluable, and we are committed to learning from it and improving Bartender based on your comments.
+
+Why Didn’t We Announce It Earlier?
+
+Our primary focus during the transition was to ensure a smooth handover and maintain the high standards you’ve come to expect. We were focused on shipping 🚢 some improvements to image comparison, fixing a bug with CPU usage creeping up, and a few other small fixes. In the midst of the work and excitement, we honestly just overlooked making a formal announcement. In hindsight, we realize the importance of keeping you, our valued users, informed and will ensure better communication moving forward.
+
+On Amplitude
+
+We included Amplitude in version 5.0.52 to get a better idea of the number of users that experience permission issues with Bartender. It was a common issue for Ben and is something we knew would also be an issue with the certificate change. Amplitude has served its purpose and has been removed in version 5.0.53 onward.
+
+What's Next?
+
+We're incredibly excited about Bartender's future. One of the things we're working on is Widgets. Widgets have been on Ben's roadmap for a while, and we're excited to bring this feature to life. Widgets will allow you to create your own menubar items that can trigger nearly any action. There is a wysiwig editor with totally customizable inputs, so the possibilities are nearly endless. We're pretty excited about it, and we're especially excited to learn about the innovative ways our users will leverage this feature.
+
+We are working on several other new features and improvements that we believe will make Bartender even better. We’ll continue to share more details about these updates, and we’re excited to hear your thoughts.
+
+Who Are We?
+
+For those who might not know us, we are Applause, a team of indie developers based in NYC. We've been longtime Bartender users and are excited to work on such an amazing product.
+
+Thank you for your continued support and understanding. We hope to rebuild trust with the community and take Bartender to new heights. Please feel free to reach out with any questions or concerns.
+
+And yes, we definitely should have taken the extra five seconds to change our Reddit username from Ordinary_Delivery_79. ¯\_(ツ)_/¯
+
+PS: Happy Dub Dub

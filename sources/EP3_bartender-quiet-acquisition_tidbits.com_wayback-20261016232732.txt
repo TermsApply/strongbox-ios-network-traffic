@@ -1,0 +1,19 @@
+Adam Engst 5 June 2024 52 comments
+
+Bartender Developer Explains and Apologizes for Quiet Acquisition
+
+Ben Surtees, developer of the popular Mac menu bar utility Bartender, writes:
+
+Three months ago, I sold Bartender to Applause, a company with the resources and expertise to take the app to new heights. Applause shares my vision for Bartender and is committed to maintaining its core values while bringing in new features and improvements. I truly believe they are the right team to continue the journey and ensure Bartender remains a valuable tool for all of you.
+
+I understand that the transition hasn’t been entirely smooth. Recently, there was a change in the signing certificate for the app, and unfortunately, this change wasn’t communicated properly to you, our loyal users. I apologize for any confusion or concern this may have caused. Please rest assured that Bartender is signed by a valid Apple ID developer and notarized by Apple, which verifies the app to ensure it is free from malware. You can read more about Apple’s notarization process here.
+
+The post from Surtees came in response to online furor triggered by a change in the signing certificate for Bartender that caused MacUpdater to flag an update as dubious. The concern wasn’t unwarranted because Bartender needs Accessibility and Screen Recording permissions that would have been problematic if a malicious actor had taken over the app.
+
+Instead, this was merely a case of botched PR. As a friend with a decades-long career in the field once told me, the goal of PR is to tell the truth and tell it first. Had Surtees and Applause announced the acquisition before making any technical changes, they could have avoided this online tempest and harm to Bartender’s reputation and user base. Now it’s up to Applause to mend the damage by focusing on transparency.
+
+Since the initial publication of this piece, I have corresponded via email with Ben Surtees, who confirmed that he wrote the post:
+
+I did write the post, to try and help clear up some of the concern caused by the lack of clarity. I also linked this to the same on surteesstudios.com so people could tell it was me (surtees studios is still mine). The reason the base url redirects is so that people looking for Bartender support get to the bartender website, in some of the license emails it linked to surteesstudios.com
+
+He also said that he had spoken to Applause about the addition of the Amplitude digital analytics framework, which he believes they added purely “to get an idea of the user base.” He didn’t believe they thought it would cause such an uproar, which it probably wouldn’t have without the signing certificate issue drawing attention. I have also reached out to Applause and will update this article if I hear back.

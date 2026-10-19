@@ -1,0 +1,58 @@
+PUBLICATION CHECK REPORT: A5.anon.har
+Script: prepare_har_for_publication.py 1.6.0
+Input SHA-256: 4e24977a57a817e05a5a66a1bbbd6dd3e4592b64bc879e54f3dd39f78a52b77c
+Pseudonymiser version of the input: 2.0.2
+Input from an older pseudonymiser version translated (--legacy-input): 493 labels renamed (hash and length unchanged), log.comment rewritten
+Output file: A5.pub.har
+Output SHA-256: 9f62d35583693aa7c202fa4b3c28c010bd1144eb3a34e949974def29231aced2
+Entries: 422 in input, 416 in output
+
+ENTRIES PER HOST (kept)
+   366  user-content.superwalleditor.com
+    16  api.revenuecat.com
+    15  fonts.gstatic.com
+    10  collector.superwall.me
+     4  subscriptions-api.superwall.com
+     2  api.superwall.me
+     2  enrichment-api.superwall.com
+     1  js.stripe.com
+
+REMOVED
+  entries of hosts out of scope: 6 (4 hosts)
+  entries of studied hosts sent by another app (bundle): 0 (0 different bundles)
+  response body of static resources (size, mimeType, status kept):
+        15 entries, 405 characters  fonts.gstatic.com
+         1 entries, 0 characters  js.stripe.com
+       366 entries, 21532314 characters  user-content.superwalleditor.com
+  fields:
+      Server-Timing (cdn-pop): 16
+      _clientAddress: 416
+      _clientPort: 416
+      _remoteDeviceIP: 416
+      _serverAddress (labelled): 416
+      serverIPAddress (labelled): 416
+
+FIELDS MASKED (groups: purchase_dates, price, currency_storefront, original_version, os_build, superwall_profile, local_time; placeholder: <<MASKED_TYPE>>)
+  no raw values to mask
+  already masked in the input file: $demandScore (4), $demandTier (4), $deviceCurrencyCode (8), $deviceCurrencySymbol (8), $device_demandScore (2), $device_demandTier (2), $device_ipContinent (2), $ipContinent (4), $storeFrontCountryCode (8), $storeFrontCurrency (8), X-Device-Currency-Code (18), X-Device-Currency-Symbol (18), X-Storefront (16), amount (10), currency (18), demandScore (2), demandTier (2), deviceCurrencyCode (2), deviceCurrencySymbol (2), expires_date (20), first_seen (10), introductory_price (8), ipContinent (2), last_seen (10), localDate (2), localDateTime (2), localTime (2), original_application_version (10), original_purchase_date (20), price (8), purchase_date (20), seed (6), storeFrontCountryCode (2), storeFrontCurrency (2)
+
+LEFT IN CLEAR
+  timestamps SHIFTED by a constant, random value per file (--shift-time); value only in the local file; intervals unchanged, entries sorted by time
+  server address: replaced with labels <<IP_n>> (--server label; 416 entries; map shared by all published files, in the local file, holding 42 addresses after this file); CDN point of presence (X-Amz-Cf-Pop, cdn-pop in Server-Timing): always masked
+  sw_cache_key (paywall resource URLs): always masked, in every place (Referer: 355, body: 83, queryString: 11, url: 11)
+  field groups not masked in this step: model, server
+  (in files from pseudonymise_har.py 2.x they are usually already masked in the input)
+
+EPOCHS AS DIGIT STRINGS IN headers/queryString/cookies (10 or 13 digits, years 2020-2035)
+  shifted like startedDateTime, number of digits unchanged (field: name: count):
+    headers: x-revenuecat-request-time: 14
+  total: 14
+BARE DATES AND TIMES OF DAY (key: count)
+  derived from utcDateTime: utcDate: 2
+  derived from utcDateTime: utcTime: 2
+EPOCHS IN BODIES OUTSIDE THE SHIFT RULES (NOT CHANGED - to check)
+  numbers under keys outside EPOCH_KEYS: none
+  10/13-digit strings: none
+
+RAW PATTERN CHECK (type | path | count)
+  no hits

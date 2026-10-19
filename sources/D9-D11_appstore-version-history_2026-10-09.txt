@@ -1,0 +1,371 @@
+Source: https://apps.apple.com/us/app/strongbox-password-manager/id897283731 – page source saved in Safari on 9 Oct 2026 (the saved HTML file is not published). Extract of the TitledParagraph fields (text, primarySubtitle = version, secondarySubtitle = date) from the page's embedded "Version History" JSON. Verbatim.
+
+=== 1.65.2 | Tue Sep 01 2026 13:52:29 GMT+0000 (Coordinated Universal Time)
+This update for Strongbox adds saving newly generated entries from Safari, adds experimental PRF Passkey support and more.
+
+New
+- Save new entries to Strongbox directly from Safari.
+- Sort entry lists by the date passwords were last changed.
+- Experimental support for PRF Passkeys.
+
+Fixes
+- Fixed an issue where some entries tapped in audit results would not open.
+- Improved resilience to WebDAV connection issues.
+- Fixed a crash when importing logins with multiple URLs.
+
+If you are enjoying the new version of Strongbox it would be great if you could leave a positive review for us in the App Store. It makes a huge difference to us as indie developers. Thank you!
+
+If you're experiencing any problems or are not happy, just let us know (support@strongboxsafe.com) and we'll make it right.
+
+The Strongbox Team
+
+=== 1.65.0 | Mon Jul 13 2026 16:29:28 GMT+0000 (Coordinated Universal Time)
+This update for Strongbox adds SimpleLogin email aliases, Bitwarden Passkey import & big improvements to search.
+
+  New:
+  - Generate SimpleLogin email aliases right from the password generator.
+  - Import Passkeys from Bitwarden.
+  - Support for ID.me two-factor authentication setup.
+  - Remember the last used search scope, and exclude password history from search results.
+  - Multi-select actions for search results, including move, export, merge and delete.
+  - Unified entry context menus, with a dedicated View action.
+  - Refreshed app icon.
+
+  Fixes:
+  - Fixed searches containing straight or curly apostrophes.
+  - Fixed favourite entries not opening correctly from the Home screen.
+  - Fixed crashes when editing tags, including on iOS 18.
+  - Fixed a crash when saving a Passkey without a username or email.
+  - Fixed the What's New screen.
+  - Fixed an issue where some subscription renewals could cause a temporary downgrade to non-Pro.
+  - Fixed ineligible users seeing "90 days free" trial messaging.
+
+  If you are enjoying the new version of Strongbox it would be great if you could leave a positive review for us in the App Store. It makes a huge difference to us as indie developers. Thank you!
+
+  If you're experiencing any problems or are not happy, just let us know (support@strongboxsafe.com) and we'll make it right.
+
+  - The Strongbox Team
+
+=== 1.64.1 | Wed Jan 28 2026 17:06:52 GMT+0000 (Coordinated Universal Time)
+This update for Strongbox adds new import options, improves the upgrade experience & adds more options for crash reporting.
+
+  New:
+  - Import from Apple Passwords exporter.
+  - Import from mSecure and Secrets 4 vaults.
+  - Updated upgrade/onboarding flow and trial messaging.
+  - Added automatic opt-in crash reporting.
+
+  Fixes:
+  - Fix issue with search not pushing the item details in some cases
+  - Improved split view controller stability (crashes, collapsing, toolbar issues, layout glitches).
+  - Fixed Safari AutoFill lock reliability and YubiKey config mismatch.
+  - Fixed Proton Pass importer reliability and WebDAV multi-user connections.
+  - Improved HIBP audit logic and error tracking.
+  - Fixed missing translations and credit card formatting/copy issues.
+
+  If you are enjoying the new version of Strongbox it would be great if you could leave a positive review for us in the App Store. It
+  makes a huge difference to us as Indie developers. Thank you!
+
+  If you're experiencing any problems or are not happy, just let us know (support@strongboxsafe.com) and we'll make it right.
+
+  - The Strongbox Team
+
+=== 1.64.0 | Mon Jan 26 2026 11:35:02 GMT+0000 (Coordinated Universal Time)
+This update for Strongbox adds new import options, improves the upgrade experience & adds more options for crash reporting.
+
+  New:
+  - Import from Apple Passwords exporter.
+  - Import from mSecure and Secrets 4 vaults.
+  - Updated upgrade/onboarding flow and trial messaging.
+  - Added automatic opt-in crash reporting.
+
+  Fixes:
+  - Improved split view controller stability (crashes, collapsing, toolbar issues, layout glitches).
+  - Fixed Safari AutoFill lock reliability and YubiKey config mismatch.
+  - Fixed Proton Pass importer reliability and WebDAV multi-user connections.
+  - Improved HIBP audit logic and error tracking.
+  - Fixed missing translations and credit card formatting/copy issues.
+
+  If you are enjoying the new version of Strongbox it would be great if you could leave a positive review for us in the App Store. It
+  makes a huge difference to us as Indie developers. Thank you!
+
+  If you're experiencing any problems or are not happy, just let us know (support@strongboxsafe.com) and we'll make it right.
+
+  - The Strongbox Team
+
+=== 1.63.2 | Fri Nov 21 2025 19:21:41 GMT+0000 (Coordinated Universal Time)
+This update for Strongbox supports importing from more password managers, and fixes a couple of issues with WebDAV and Dropbox hosted databases.
+
+- Strongbox now supports importing from Minimalist & ProtonPass
+- Adds the ability to tag credit card fields
+- Fixes a bug where concealable fields wouldn’t correctly conceal on save for credit card entries
+- Fixes various issues with the iPad experience of Strongbox
+- Fixes a crash when adding or opening a Dropbox Database if the account had large amounts of files
+- Fixes an issue stopping some users from connecting to their WebDAV databases
+- Updates text fields in the WebDAV entry to remove all autocorrection
+- Removes hyphens from credit card numbers when autofilling
+- Fixes a crash on iOS 18 and below
+
+If you are enjoying the new version of Strongbox it would be great if you could leave a positive review for us in the App Store. It makes a huge difference to us as Indie developers. Thank you!
+
+If you're experiencing any problems or are not happy, just let us know (support@strongboxsafe.com) and we'll make it right.
+
+- The Strongbox Team
+
+=== 1.63.1 | Fri Nov 21 2025 13:22:05 GMT+0000 (Coordinated Universal Time)
+This update for Strongbox supports importing from more password managers, and fixes a couple of issues with WebDAV and Dropbox hosted databases.
+
+- Strongbox now supports importing from Minimalist & ProtonPass
+- Adds the ability to tag credit card fields
+- Fixes a bug where concealable fields wouldn’t correctly conceal on save for credit card entries
+- Fixes various issues with the iPad experience of Strongbox
+- Fixes a crash when adding or opening a Dropbox Database if the account had large amounts of files
+- Fixes an issue stopping some users from connecting to their WebDAV databases
+- Updates text fields in the WebDAV entry to remove all autocorrection
+- Removes hyphens from credit card numbers when autofilling
+
+If you are enjoying the new version of Strongbox it would be great if you could leave a positive review for us in the App Store. It makes a huge difference to us as Indie developers. Thank you!
+
+If you're experiencing any problems or are not happy, just let us know (support@strongboxsafe.com) and we'll make it right.
+
+- The Strongbox Team
+
+=== 1.63.0 | Thu Nov 20 2025 10:17:44 GMT+0000 (Coordinated Universal Time)
+This update for Strongbox supports importing from more password managers, and fixes a couple of issues with WebDAV and Dropbox hosted databases.
+
+- Strongbox now supports importing from Minimalist & ProtonPass
+- Adds the ability to tag credit card fields
+- Fixes a bug where concealable fields wouldn’t correctly conceal on save for credit card entries
+- Fixes various issues with the iPad experience of Strongbox
+- Fixes a crash when adding or opening a Dropbox Database if the account had large amounts of files
+- Fixes an issue stopping some users from connecting to their WebDAV databases
+- Updates text fields in the WebDAV entry to remove all autocorrection
+- Removes hyphens from credit card numbers when autofilling
+
+If you are enjoying the new version of Strongbox it would be great if you could leave a positive review for us in the App Store. It makes a huge difference to us as Indie developers. Thank you!
+
+If you're experiencing any problems or are not happy, just let us know (support@strongboxsafe.com) and we'll make it right.
+
+- The Strongbox Team
+
+=== 1.62.3 | Tue Nov 04 2025 11:02:03 GMT+0000 (Coordinated Universal Time)
+This update for Strongbox improves the experience with Credit Card entries, and fixes a couple of bugs.
+
+- Fixes a crash with iPadOS when transitioning from small to large widths using multi tasking
+- Stops the auditor from causing large CPU usage when you have a large database
+- Fixes an issue where the Firefox/Chrome autofill password prompt would close itself
+- Corrects the text color in dark mode on iOS for credit card fields
+- Credit card custom fields can now be edited, and deleting them should persist
+
+If you are enjoying the new version of Strongbox it would be great if you could leave a positive review for us in the App Store. It makes a huge difference to us as Indie developers. Thank you!
+
+If you're experiencing any problems or are not happy, just let us know (support@strongboxsafe.com) and we'll make it right.
+
+- The Strongbox Team
+
+=== 1.62.2 | Tue Oct 21 2025 16:01:55 GMT+0000 (Coordinated Universal Time)
+This update for Strongbox brings improvements to look & feel across iPadOS and macOS.
+
+- Fix issues with the third column on macOS
+- Stop the database window opening in the background
+- Fix a couple crashes on iPadOS
+- Adds a button to re-show the sidebar on iPadOS if you dismiss it and haven't selected an item
+- Stops the tab bar obscuring some buttons on iOS
+- Fixes some issues with touch targets at the top of lists
+- Stops the liquid glass buttons from showing a dark appearance when the homepage first loads
+
+If you are enjoying the new version of Strongbox it would be great if you could leave a positive review for us in the App Store. It makes a huge difference to us as Indie developers. Thank you!
+
+If you're experiencing any problems or are not happy, just let us know (support@strongboxsafe.com) and we'll make it right.
+
+- The Strongbox Team
+
+=== 1.62 | Wed Oct 01 2025 18:50:47 GMT+0000 (Coordinated Universal Time)
+This update for Strongbox brings support for Liquid Glass, Credit Card entries, and more.
+
+- New Design to fit right into the new OS
+- Dedicated credit card entries
+- Fixes for autofill not working on some sites
+- Reduction in CPU usage when turning on auditing for large databases
+- Fixed a couple crashes
+- Fixed various issues with saving/deleting entries
+- Handled when FaceID fails due to another FaceID running by prompting another form of authentication
+- Allow the passkey section to collapse on iOS
+- Add better alerts when trying to delete entries/databases
+- Fix various authentication failures not telling you why they failed
+- Fix tags not being shown in the search list consistently 
+
+If you are enjoying the new version of Strongbox it would be great if you could leave a positive review for us in the App Store. It makes a huge difference to us as Indie developers. Thank you!
+
+If you're experiencing any problems or are not happy, just let us know (support@strongboxsafe.com) and we'll make it right.
+
+- The Strongbox Team
+
+=== 1.61 | Thu May 29 2025 13:51:22 GMT+0000 (Coordinated Universal Time)
+We've fixed a bug where app was accessing the Have I Been Pwned breaches service when you've only enabled passwords. It will now only contact this API if you've accepted the second option in your audit settings.
+
+We've fixed some bugs & crashes when managing tags.
+
+Users who purchased the old in-app purchase for lifetime will now see their purchase automatically restored on launch, and display the correct "lifetime" messaging throughout.
+
+If you are enjoying the new version of Strongbox it would be great if you could leave a positive review for us in the App Store. It makes a huge difference to us as Indie developers. Thank you!
+
+If you're experiencing any problems or are not happy, just let us know (support@strongboxsafe.com) and we'll make it right.
+
+- The Strongbox Team
+
+=== 1.60.40 | Tue May 20 2025 11:23:13 GMT+0000 (Coordinated Universal Time)
+We've fixed a bug where app was accessing the Have I Been Pwned breaches service when you've only enabled passwords. It will now only contact this API if you've accepted the second option in your audit settings.
+
+We've fixed some bugs & crashes when managing tags.
+
+Users who purchased the old in-app purchase for lifetime will now see their purchase automatically restored on launch, and display the correct "lifetime" messaging throughout.
+
+If you are enjoying the new version of Strongbox it would be great if you could leave a positive review for us in the App Store. It makes a huge difference to us as Indie developers. Thank you!
+
+If you're experiencing any problems or are not happy, just let us know (support@strongboxsafe.com) and we'll make it right.
+
+- The Strongbox Team
+
+=== 1.60.39 | Mon May 12 2025 09:12:55 GMT+0000 (Coordinated Universal Time)
+We’ve added support for checking if your account has been breached with Have I Been Pwned. Head to your database audit to check if any of your accounts have been compromised.You can now allow for expired entries to show in search, and we fixed a small bug with an image aspect ratio in the preview view.
+This expands on our existing functionality to check for a pwned password by also checking for the account itself being included in a data breach. You can opt-in to this feature inside audit settings, where you'll also find a more detailed description of how it works.
+
+Purchases in the app are now processed using RevenueCat. This helps us run sales more often and process purchases more reliably. The exact same information is provided to RevenueCat as it would be directly to Apple, and no extra analytics or tracking is added as a result of this change.
+
+If you are enjoying the new version of Strongbox it would be great if you could leave a positive review for us in the App Store. It makes a huge difference to us as Indie developers. Thank you!
+
+If you're experiencing any problems or are not happy, just let us know (support@strongboxsafe.com) and we'll make it right.
+
+- The Strongbox Team
+
+=== 1.60.37 | Wed Apr 30 2025 12:28:38 GMT+0000 (Coordinated Universal Time)
+We’ve added support for checking if your account has been breached with Have I Been Pwned. Head to your database audit to check if any of your accounts have been compromised.  You can now allow for expired entries to show in search, and we fixed a small bug with an image aspect ratio in the preview view.
+
+If you are enjoying the new version of Strongbox it would be great if you could leave a positive review for us in the App Store. It makes a huge difference to us as Indie developers. Thank you!
+
+If you're experiencing any problems or are not happy, just let us know (support@strongboxsafe.com) and we'll make it right.
+
+- The Strongbox Team
+
+=== 1.60.36 | Thu Mar 27 2025 15:27:54 GMT+0000 (Coordinated Universal Time)
+• Password previews for items with large amounts of fields will no longer stretch&clip in the autofill preview on smaller devices, and we’ve brought our new OTP preview along too.
+
+If you are enjoying the new version of Strongbox it would be great if you could leave a positive review for us in the App Store. It makes a huge difference to us as Indie developers. Thank you!
+
+If you're experiencing any problems or are not happy, just let us know (support@strongboxsafe.com) and we'll make it right.
+
+- The Strongbox Team
+
+=== 1.60.35 | Sun Feb 23 2025 07:06:51 GMT+0000 (Coordinated Universal Time)
+• Strongbox Sync: Defensive coding - due to CloudKit problems or data loss, do not delete databases unless new deletedAt field explicitly set.
+• Minor Tweaks, Updates and Tech Debt
+• Localization Updates
+
+If you are enjoying the new version of Strongbox it would be great if you could leave a positive review for us in the App Store. It makes a huge difference to us as Indie developers. Thank you!
+
+If you're experiencing any problems or are not happy, just let us know (support@strongboxsafe.com) and we'll make it right.
+
+- The Strongbox Team
+
+=== 1.60.34 | Tue Feb 18 2025 02:49:40 GMT+0000 (Coordinated Universal Time)
+• Minor Tweaks, Updates and Tech Debt
+• Localization Updates
+
+If you are enjoying the new version of Strongbox it would be great if you could leave a positive review for us in the App Store. It makes a huge difference to us as Indie developers. Thank you!
+
+If you're experiencing any problems or are not happy, just let us know (support@strongboxsafe.com) and we'll make it right.
+
+- The Strongbox Team
+
+=== 1.60.33 | Wed Feb 12 2025 03:57:23 GMT+0000 (Coordinated Universal Time)
+• BugFix: CSV Importer not working for some CSV files
+• Minor Tweaks, Updates and Tech Debt
+• Localization Updates
+
+If you are enjoying the new version of Strongbox it would be great if you could leave a positive review for us in the App Store. It makes a huge difference to us as Indie developers. Thank you!
+
+If you're experiencing any problems or are not happy, just let us know (support@strongboxsafe.com) and we'll make it right.
+
+- The Strongbox Team
+
+=== 1.60.32 | Fri Jan 10 2025 03:53:29 GMT+0000 (Coordinated Universal Time)
+• Minor Tweaks, Updates and Tech Debt
+• Localization Updates
+
+If you are enjoying the new version of Strongbox it would be great if you could leave a positive review for us in the App Store. It makes a huge difference to us as Indie developers. Thank you!
+
+If you're experiencing any problems or are not happy, just let us know (support@strongboxsafe.com) and we'll make it right.
+
+- The Strongbox Team
+
+=== 1.60.31 | Sat Jan 04 2025 04:34:35 GMT+0000 (Coordinated Universal Time)
+• Watch improvements: dedicated 2FA tab, increase entry count limitation, reduce minimum required OS version
+• Option to hide the digits of the countdown for 2FA Code (Advanced Settings)
+• BugFix: Crash on older OS when displaying 2FA Code
+• Detect quota exceeded error and issue a more friendly error message
+• Minor Tweaks, Updates and Tech Debt
+• Localization Updates
+
+If you are enjoying the new version of Strongbox it would be great if you could leave a positive review for us in the App Store. It makes a huge difference to us as Indie developers. Thank you!
+
+If you're experiencing any problems or are not happy, just let us know (support@strongboxsafe.com) and we'll make it right.
+
+- The Strongbox Team
+
+=== 1.60.30 | Wed Jan 01 2025 02:34:18 GMT+0000 (Coordinated Universal Time)
+• Apple Watch Integration - You can now use Strongbox on your Apple Watch
+• Improved 2FA Code Display
+• When Exporting, ask if you want to Zip the export file or not (Settings > Advanced > The Garage > Zip Export)
+• Minor Tweaks, Updates and Tech Debt
+• Localization Updates
+
+If you are enjoying the new version of Strongbox it would be great if you could leave a positive review for us in the App Store. It makes a huge difference to us as Indie developers. Thank you!
+
+If you're experiencing any problems or are not happy, just let us know (support@strongboxsafe.com) and we'll make it right.
+
+- The Strongbox Team
+
+=== 1.60.26 | Sun Dec 01 2024 19:35:34 GMT+0000 (Coordinated Universal Time)
+• BugFix: Crash on older os versions (15.x, 16.x) due to use of more advanced AutoFill API
+• Minor Tweaks, Updates and Tech Debt
+• Localization Updates
+
+If you are enjoying the new version of Strongbox it would be great if you could leave a positive review for us in the App Store. It makes a huge difference to us as Indie developers. Thank you!
+
+If you're experiencing any problems or are not happy, just let us know (support@strongboxsafe.com) and we'll make it right.
+
+- The Strongbox Team
+
+=== 1.60.25 | Wed Nov 27 2024 08:20:35 GMT+0000 (Coordinated Universal Time)
+• Detect when user tries to import a zip file and offer to unzip, search for database and import that
+• BugFix: With multiple AutoFill enabled databases, entries can have duplicate or stale AutoFill suggestions after an edit.
+• AutoFill: Always show Caller ID (renamed from Service ID)
+• Minor Tweaks, Updates and Tech Debt
+• Localization Updates
+
+If you are enjoying the new version of Strongbox it would be great if you could leave a positive review for us in the App Store. It makes a huge difference to us as Indie developers. Thank you!
+
+If you're experiencing any problems or are not happy, just let us know (support@strongboxsafe.com) and we'll make it right.
+
+- The Strongbox Team
+
+=== 1.60.24 | Mon Nov 18 2024 08:04:23 GMT+0000 (Coordinated Universal Time)
+• Minor Tweaks and Tech Debt
+• Localization Updates
+
+If you are enjoying the new version of Strongbox it would be great if you could leave a positive review for us in the App Store. It makes a huge difference to us as Indie developers. Thank you!
+
+If you're experiencing any problems or are not happy, just let us know (support@strongboxsafe.com) and we'll make it right.
+
+- The Strongbox Team
+
+=== 1.60.23 | Tue Oct 29 2024 07:50:48 GMT+0000 (Coordinated Universal Time)
+• Minor Tweaks and Tech Debt
+• Localization Updates
+
+If you are enjoying the new version of Strongbox it would be great if you could leave a positive review for us in the App Store. It makes a huge difference to us as Indie developers. Thank you!
+
+If you're experiencing any problems or are not happy, just let us know (support@strongboxsafe.com) and we'll make it right.
+
+- The Strongbox Team
